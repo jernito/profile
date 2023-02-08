@@ -1,0 +1,86 @@
+body {
+  background-color: #66635B;
+  color: black;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  line-height: 1,4;
+}
+h1 {
+
+  font-size: 32px;
+  font-weight: 800;
+  color: black;
+  font-family: Georgia, serif;
+}
+h2 {
+
+  font-size: 20px;
+  font-weight: lighter;
+  color: #FF312E;
+}
+a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.container {
+  width: 750px;
+
+  margin: 0 auto;
+}
+.card-white {
+  background-color: white;
+  padding: 10px;
+  border-radius: 9px;
+  margin: 10px 0px;
+  text-align: center;
+
+}
+.block-lien{
+  background-color: white;
+  text-align: center;
+  margin: 0;
+}
+li{
+  list-style: none;
+  text-align: center;
+}
+ul{
+  display: block;
+}
+.img-circle{
+  border-radius: 50%;
+}
+.btn-grey{
+    color: black;
+    padding: 15px 20px;
+    border-radius: 4px;
+    background-color: #E9EBF8;
+
+}
+i{
+  font-size: 50px;
+  color: grey;
+}
+i:hover{
+  color: black;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
